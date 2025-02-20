@@ -46,6 +46,20 @@
 	},
 
 	{
+		name: 'Guess Number Game',
+		icon: 'QuestionCircleOutlined',
+		path: '/guess-number',
+		component: './GuessNumberGame',
+	  },
+
+	{
+		name: 'Study Tracker',
+		icon: 'BookOutlined',
+		path: '/study',
+		component: './StudyTracker/StudyTracker',
+	  },
+	
+	{
 		path: '/notification',
 		routes: [
 			{
