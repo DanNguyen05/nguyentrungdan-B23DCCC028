@@ -602,3 +602,13 @@ export const createTextLinks = (text: string, targetBlank: boolean = true) => {
 		},
 	);
 };
+
+// Hàm tạo ID tự động
+export const generateId = (): number => {
+	// Lấy giá trị currentId từ localStorage hoặc khởi tạo từ 0
+	const currentId = parseInt(localStorage.getItem('currentEmployeeId') || '0', 10);
+	const newId = currentId + 1;
+	// Lưu lại giá trị mới
+	localStorage.setItem('currentEmployeeId', newId.toString());
+	return newId;
+};

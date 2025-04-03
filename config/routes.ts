@@ -36,6 +36,12 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/employee',
+		name: 'Quản lý nhân viên',
+		component: './Employee',
+		icon: 'UserOutlined',
+	},
 
 	// Thêm route cho TodoList vào đây
 	{
