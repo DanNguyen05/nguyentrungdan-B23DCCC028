@@ -36,6 +36,12 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/employee',
+		name: 'Quản lý nhân viên',
+		component: './Employee',
+		icon: 'UserOutlined',
+	},
 
 	// DANH MUC HE THONG
 	// {
